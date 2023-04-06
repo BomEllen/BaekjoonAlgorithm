@@ -7,6 +7,6 @@ elif (H==0 and M>= 45):
     print ('0', end = ' ')
     print (M - 45)
 else:
-    b = int((H+1440+M)-45)
+    b = int(1395+M)
     print (b//60, end=' ')    
     print (b%60, end=' ')
